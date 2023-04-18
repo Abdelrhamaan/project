@@ -1,0 +1,39 @@
+1)1-git init
+2-mkdir project 
+3- cd "D:\ITI-3M\33-Version Control\04-Labs\Abdelrhman Mamdouh\iti-python-mnf-2023-q3\project"
+4-echo  file.html
+5-git add file.html
+6-git git commit -m "addition"
+7-git push
+
+
+2)1- git branch dev
+  2- git checkout dev
+  3- echo abdelrhman > dev_file.txt
+  4- git add dev_file.txt
+  5- git commit -m "add dev_file.txt"
+  6- git push origin dev
+
+  git checkout master
+	
+  1- git branch test
+  2- git checkout test
+  3- echo mamdouh > dev_file.txt
+  4- git add dev_file.txt
+  5- git commit -m "add dev_file.txt"
+  6- git push origin test
+
+3)1-git checkout master
+  2-git merge dev
+  3-git push origin master
+
+4) 1- to remove them locally ,git branch -d dev , git branch -d test
+   2- to remove them remotely , git push origin --delet dev 
+ 
+5) git checkout dev , git checkout test 
+
+6) git tag -a v1.7 -m "Tag message"
+7) git push origin v1.7
+8) git tag
+9)localy---->git tag -d v1.7
+  remotly--->git push --delete origin v1.7
